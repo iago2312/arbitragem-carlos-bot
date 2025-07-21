@@ -2,9 +2,8 @@ import time
 import requests
 
 # Token e ID do seu bot
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-CHAT_ID = os.getenv("CHAT_ID")
-
+BOT_TOKEN = "7495615504:AAFxPbhFmabG20yyhzbe-ZhYtrcNLxAMJZA"
+CHAT_ID = "6476046684"
 
 def send_alert(message):
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
